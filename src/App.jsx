@@ -1,15 +1,16 @@
 import { useState } from 'react'
+import Navbar from './Navbar' ;
+import Home from './Home';
+import Approach from './Approach';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <section className = "bg-white">
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-      </section>
+      <Navbar/>
+      <Home/>
+      <Approach/>
     </>
   )
 }
