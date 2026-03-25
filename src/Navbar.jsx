@@ -3,10 +3,10 @@ import thepmforge from './assets/image (11).png';
 const Navbar = () => {
 
   return ( 
-    <nav className = "flex flex-row justify-between items-center p-3">
+    <nav className = "flex flex-row justify-between items-center p-3 bg-[rgb(248,249,250)]">
       <div className = "flex flex-row items-center gap-2">
       <img src={thepmforge} className="w-12 h-12 rounded-full" alt= "logo"/>
-      <h1 className="font-inter font-bold text-sm">ThePMForge</h1>
+      <h1 className="font-inter font-bold text-sm text-[rgb(1,104,126)]">ThePMForge</h1>
       </div>
       <div>
         <ul className= "list-none flex flex-row ">
