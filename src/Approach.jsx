@@ -2,7 +2,7 @@ const Approach = () => {
   return ( 
     <div className="bg-[rgb(2,44,83)] text-white flex flex-col gap-15 pl-6 pr-6 pb-20">
       <div className="pt-20 ">
-        <h3 className="font-inter text-xs font-semibold text-[rgb(1,104,126)]">THE PROBLEM</h3>
+        <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(1,104,126)]">THE PROBLEM</h3>
         <ul className=" pl-5 pt-5 flex flex-col gap-3 font-display font-medium text-lg">
           <li>Projects fail despite solid plans.</li>
           <li>Teams misalign mid-execution.</li>
@@ -12,7 +12,7 @@ const Approach = () => {
         <h2 className="italic font-display font-semibold text-lg pt-3 pl-5 text-[rgb(1,104,126)]">The problem isn't planning. It's execution.</h2>
       </div>
       <div className="pt-6" >
-        <h3 className="font-inter text-xs font-semibold text-[rgb(1,104,126)]">WHO WE ARE</h3>
+        <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(1,104,126)]">WHO WE ARE</h3>
         <h2 className="font-display font-medium pt-5 pl-5 text-2xl">ThePMForge is an <span className="font-bold"> execution intelligence </span>organization.</h2>
         <p className="text-[rgb(1,104,126)] font-inter font-semibold pl-5 pt-3 text-sm">We study real execution what breaks, why it breaks, and how experienced operators navigate it.</p>
         <div className="flex flex-col gap-4 pt-6">
@@ -27,7 +27,7 @@ const Approach = () => {
        </div>
      </div>
      <div>
-        <h3 className="font-inter text-xs font-semibold text-[rgb(1,104,126)] pt-5">THE SYSTEM</h3>
+        <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(1,104,126)] pt-5">THE SYSTEM</h3>
         <p className="text-[rgb(1,104,126)] font-inter font-semibold pl-5 pt-5 text-sm">We operate through a system.</p>
         <div className="flex flex-col gap-6 pt-6">
           <div className="ml-2 bg-white w-80 pr-2 h-30 border-3 mb-2 border-[rgb(1,104,126)] rounded-xl flex flex-row gap-4 items-center pl-5">
@@ -60,7 +60,7 @@ const Approach = () => {
         </div>
      </div>
      <div className="pt-6">
-        <h3 className="font-inter text-xs font-semibold text-[rgb(1,104,126)]">WHAT YOU GET</h3>
+        <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(1,104,126)]">WHAT YOU GET</h3>
         <ul className="list-disc ml-5 font-display font-medium pt-6 flex flex-col gap-3 tracking-wide pr-3 mr-2">
           <li>Execution-focused roundtable discussions</li>
           <li>Practical frameworks for delivery challenges</li>
@@ -69,7 +69,7 @@ const Approach = () => {
         </ul>
       </div>
       <div>
-        <h3 className="pt-4 font-inter text-xs font-semibold text-[rgb(1,104,126)]">WHO IS THIS FOR</h3>
+        <h3 className="pt-4 font-inter text-sm font-semibold tracking-wide text-[rgb(1,104,126)]">WHO IS THIS FOR</h3>
         <ul className="pl-5 pt-6 flex flex-col gap-3 font-display font-medium tracking-wide pr-3 mr-2">
           <li className="before:content-['✓'] before:mr-2">Project Managers delivering complex work</li>
           <li className="before:content-['✓'] before:mr-2">Program Managers handling cross-functional execution</li>
