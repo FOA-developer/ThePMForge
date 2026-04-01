@@ -4,6 +4,7 @@ import Home from './Home';
 import Approach from './Approach';
 import Testimonial from './Testimonial';
 import About from './About';
+import Final from './Final';
 import Footer from './Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Approach/>
       <Testimonial/>
       <About/>
+      <Final/>
       <Footer/>
     </>
   )
