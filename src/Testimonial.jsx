@@ -1,6 +1,6 @@
 const Testimonial = () => {
   return ( 
-    <div className="bg-white text-[rgb(11,41,95)] pt-20">
+    <div className="bg-white text-[rgb(11,41,95)] pt-20 pb-3 md:pb-15">
       <h3 className="font-inter font-semibold text-xs text-center pb-5">EARLY SIGNALS</h3>
       <h1 className="font-display font-bold text-center text-4xl w-[80%] m-auto">Early Signals from the Field</h1>
       <div className="md:flex-row flex flex-col">
