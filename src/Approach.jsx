@@ -2,7 +2,7 @@ import bg_image from './assets/bg-image.png';
 
 const Approach = () => {
   return ( 
-    <div style={{ backgroundImage: `url(${bg_image})` }} className="text-white flex flex-col md:justify-center md:items-center gap-15 pl-6 pr-6 pb-20">
+    <div id="approach" style={{ backgroundImage: `url(${bg_image})` }} className="text-white flex flex-col md:justify-center md:items-center gap-15 pl-6 pr-6 pb-20">
       <div className="mx-auto w-full max-w-[900px] md:w-[80%] lg:w-[60%]">
         <div className="pt-20">
           <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(220,249,253)]">THE PROBLEM</h3>

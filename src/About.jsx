@@ -3,7 +3,7 @@ import bg_image from './assets/bg-image.png';
 
 const About = () => {
   return (
-    <div style={{ backgroundImage: `url(${bg_image})` }} className="text-white flex flex-col md:flex-row gap-6 justify-center items-center md:items-center lg:justify-start lg:items-center py-12 px-4 sm:px-4 md:px-8">
+    <div id="about" style={{ backgroundImage: `url(${bg_image})` }} className="text-white flex flex-col md:flex-row gap-6 justify-center items-center md:items-center lg:justify-start lg:items-center py-12 px-4 sm:px-4 md:px-8">
       <div className="relative w-full max-w-[280px] md:w-auto md:max-w-[250px] md:mx-auto lg:w-auto lg:max-w-[380px] lg:mx-auto">
         <div className="absolute -right-4 -top-4 h-16 w-16 border-t-2 border-r-2 border-[rgb(1,104,126)]"></div>
         <img src={image} alt="about" className="object-cover block w-full h-auto md:h-[380px] rounded-xl" />
