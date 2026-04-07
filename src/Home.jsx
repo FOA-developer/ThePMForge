@@ -1,5 +1,3 @@
-import white_bg from './assets/second-bg.png';
-
 const Home = () => {
   return ( 
     <div className="pt-20 pl-6 pr-2 pb-24 md:w-[80%] md:pl-20 lg:w-[70%]">
