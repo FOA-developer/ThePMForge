@@ -14,7 +14,7 @@ const Approach = () => {
           </ul>
           <h2 className="italic font-display font-semibold text-lg pt-3 pl-5 text-[rgb(220,249,253)] md:text-lg">The problem isn't planning. It's execution.</h2>
         </div>
-        <div className="pt-6 md:pt-15" >
+        <div className="pt-20 md:pt-15" >
           <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(220,249,253)]">WHO WE ARE</h3>
           <h2 className="font-display font-medium pt-5 pl-5 text-2xl">ThePMForge is an <span className="font-bold"> execution intelligence </span>organization.</h2>
           <p className="text-[rgb(220,249 253)] font-inter font-semibold pl-5 pt-3 text-sm md:text-base">We study real execution what breaks, why it breaks, and how experienced operators navigate it.</p>
@@ -29,7 +29,7 @@ const Approach = () => {
             </div>
         </div>
       </div>
-      <div className="pt-10 md:pt-15">
+      <div className="pt-15">
           <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(220,249,253)] pt-5">THE SYSTEM</h3>
           <p className="text-[rgb(220,249,253)] font-inter font-semibold pl-5 pt-5 text-sm">We operate through a system.</p>
           <div className="flex flex-col gap-6 pt-6">
@@ -62,7 +62,7 @@ const Approach = () => {
             </div>
           </div>
       </div>
-      <div className="pt-10 pl-5 md:pt-15">
+      <div className="pl-5 pt-15">
           <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(220,249,253)]">WHAT YOU GET</h3>
           <ul className="list-disc ml-5 font-display font-medium pt-6 flex flex-col gap-3 tracking-wide pr-3 mr-2 md:tracking-normal md:text-xl">
             <li>Access to curated execution roundtables</li>
