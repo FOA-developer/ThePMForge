@@ -17,7 +17,7 @@ const About = () => {
         <p className="font-inter pl-2 pb-10 font-light"><span className="font-semibold"> Oghosa Agbonlahor</span> is an execution operator focused on one thing: understanding why projects fail in the real world.<br></br><br></br>He has supported 200+ training sessions reaching 5,000+ learners, working inside high-pressure delivery environments where execution, not planning,determines outcomes.<br></br><br></br>ThePMForge is built from that reality: bringing operators together to break down real execution failures and convert them into practical systems.<br></br><br></br>Because the problem isn’t planning. It’s execution.</p>
         <div className="w-full max-w-[450px] border-t border-[rgb(220,249,253)]">
           <p className=" pt-4 font-inter font-light text-sm text-left text-[rgb(220,249,253)] hover:underline">
-            <a href="https://www.linkedin.com/in/oghosa-agbonlahor/">Connect on Linkedin</a>
+            <a href="https://www.linkedin.com/in/oghosa-agbonlahor/" target="_blank" rel="noopener noreferrer">Connect on Linkedin</a>
           </p>
         </div>
       </div>
