@@ -12,13 +12,13 @@ const Footer = () => {
           </div>
           <p className="text-sm pt-3">An execution intelligence organization. Studying why projects fail and turning real insights into structured systems.</p>
         </div>
-        <div className="text-sm text-left md:pl-6">
-          <h3 className="font-semibold pb-1 md:pb-2 md:pt-17 text-[rgb(220,249,253)]">NAVIGATE</h3>
+        <div className="text-xs text-left md:pl-6">
+          <h3 className="font-semibold pb-1 md:pb-2 md:pt-17 text-sm text-[rgb(220,249,253)]">NAVIGATE</h3>
           <p className="pb-1"><a href="#approach">Approach</a></p>
           <p className="pb-1"><a href="#about">About</a></p>
         </div>
-        <div className="text-sm text-left"> 
-          <h3 className="font-semibold pb-1 text-[rgb(220,249,253)] lg:pt-17">CONNECT</h3>
+        <div className="text-xs text-left"> 
+          <h3 className="font-semibold pb-1 text-[rgb(220,249,253)] text-sm lg:pt-17">CONNECT</h3>
           <p className="pb-1 md:pt-1"><a href="https://www.linkedin.com/company/thepmforge/ " target="_blank">Linkedin</a></p>
           <p className=" md:pt-1"><a href="">X</a></p>
           <p className=" md:pt-1"><a href="">Instagram</a></p>
