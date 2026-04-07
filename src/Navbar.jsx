@@ -3,7 +3,7 @@ import thepmforge from './assets/image (11).png';
 const Navbar = () => {
 
   return ( 
-    <nav className = "flex flex-row justify-between items-center p-4 text-[rgb(11,41,95)]">
+    <nav className = "flex flex-row justify-between items-center p-4 text-[rgb(11,41,95)] pt-6">
       <div className = "flex flex-row items-center gap-2 pl-3 md:pl-6">
       <img src={thepmforge} className="w-12 h-12 rounded-full" alt= "logo"/>
       <h1 className="font-inter font-bold text-sm ">ThePMForge</h1>
