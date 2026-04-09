@@ -20,8 +20,8 @@ const Footer = () => {
         <div className="text-xs text-left"> 
           <h3 className="font-semibold pb-1 text-[rgb(220,249,253)] text-sm lg:pt-17">CONNECT</h3>
           <p className="pb-1 md:pt-1"><a href="https://www.linkedin.com/company/thepmforge/ " target="_blank">Linkedin</a></p>
-          <p className=" md:pt-1"><a href="">X</a></p>
-          <p className=" md:pt-1"><a href="">Instagram</a></p>
+          <p className=" md:pt-1"><a href="https://x.com/MforgeP90236" target="_blank">X</a></p>
+          <p className=" md:pt-1"><a href="https://www.instagram.com/thepmforge/" target="_blank">Instagram</a></p>
         </div>
       </div>
       <div>

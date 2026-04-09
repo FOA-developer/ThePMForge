@@ -7,8 +7,8 @@ const Final = () => {
         <p className="font-inter pt-4 ">Access insights, conversations, and frameworks built from real delivery experience.</p>
       </div>
       <div className="flex flex-row gap-5 pt-10 items-center">
-        <button className="bg-[rgb(11,41,95)] font-mediium text-sm rounded-full text-white p-3 transition-all duration-500 ease-out transform hover:scale-105 active:scale-95">Request an Invite</button>
-        <button className="font-medium text-sm rounded-full border-[rgb(11,41,95)] border-1 p-3 transition-all duration-500 ease-out transform hover:scale-105 active:scale-95 text-[rgb(11,41,95)]">Join The Waitlist</button>
+        <button className="bg-[rgb(11,41,95)] font-mediium text-sm rounded-full text-white p-3 transition-all duration-500 ease-out transform hover:scale-105 active:scale-95"><a href="https://docs.google.com/forms/d/e/1FAIpQLScGlUTQCNadu03JH7oueH5JjgLxs8OPcFwn-KVr2nfTjYqcsw/viewform?usp=dialog" target="_blank">Request an Invite</a></button>
+        <button className="font-medium text-sm rounded-full border-[rgb(11,41,95)] border-1 p-3 transition-all duration-500 ease-out transform hover:scale-105 active:scale-95 text-[rgb(11,41,95)]"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdaOyVybQwJpmyMuLK_TKJgIj7K2ncyn8Sh5q91SSVT_mcFyw/viewform?usp=publish-editor" target="_blank">Join The Waitlist</a></button>
       </div>
     </div>
    );
