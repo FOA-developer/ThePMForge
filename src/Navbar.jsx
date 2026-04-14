@@ -12,7 +12,7 @@ const Navbar = () => {
         <ul className="list-none flex gap-8 flex-row items-center">
           <li className="hidden md:block font-semibold"><a href="#approach">Approach</a></li>
           <li className="hidden md:block font-semibold"><a href="#about">About</a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScGlUTQCNadu03JH7oueH5JjgLxs8OPcFwn-KVr2nfTjYqcsw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer"><button className="text-xs font-semi-bold bg-[rgb(11,41,95)] hover:bg-[rgb(39, 198, 230)]font-inter text-white p-3 rounded-full transition-all duration-600 ease-out transform hover:scale-105 active:scale-95 ">Request an Invite</button></a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScGlUTQCNadu03JH7oueH5JjgLxs8OPcFwn-KVr2nfTjYqcsw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer"><button className=" hidden md:block text-xs font-semi-bold bg-[rgb(11,41,95)] hover:bg-[rgb(39, 198, 230)]font-inter text-white p-3 rounded-full transition-all duration-600 ease-out transform hover:scale-105 active:scale-95 ">Request an Invite</button></a></li>
         </ul>
       </div>
     </nav>
