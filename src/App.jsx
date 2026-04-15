@@ -9,7 +9,6 @@ import Final from './Final';
 import Footer from './Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
