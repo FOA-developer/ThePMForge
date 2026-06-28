@@ -7,10 +7,10 @@ const Approach = () => {
       style={{ backgroundImage: `url(${bg_image})` }}
       className="text-white bg-cover bg-center"
     >
-      <div className="mx-auto px-20 py-20">
+      <div className="mx-auto px-20 py-20 my-10 ">
 
         {/* ── THE PROBLEM ── */}
-        <div className="flex flex-col lg:flex-row lg:gap-16 items-start">
+        <div className="flex flex-col lg:flex-row lg:gap-16 items-start pt-8">
           <div className="lg:w-[160px] lg:shrink-0 mb-5 lg:mb-0 lg:pt-1">
             <h3 className="font-inter text-sm font-semibold tracking-wide text-[rgb(220,249,253)]">THE PROBLEM</h3>
           </div>
