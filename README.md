@@ -1,16 +1,36 @@
-# React + Vite
+ThePMForge Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple marketing landing page for ThePMForge, an execution intelligence organization for project and program managers.
 
-Currently, two official plugins are available:
+Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React.js
+Tailwind CSS
+Vite
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Project Structure
 
-## Expanding the ESLint configuration
+src/
+├── components/       # Reusable UI components (Navbar, Footer, etc.)
+├── sections/         # Page sections (Hero, Problem, System, CTA, etc.)
+├── assets/           # Images and static files
+├── App.jsx
+└── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sections
+
+Hero — headline, subtext, and CTA buttons
+The Problem — pain points the org addresses
+Who We Are — org identity and positioning
+The System — three-step breakdown (Roundtables → Insight Extraction → Execution Intelligence)
+What You Get / Who This Is For — value prop and target audience
+Early Signals — social proof and testimonial
+Founder — background on Oghosa Agbonlahor
+CTA — invite/waitlist call to action
+Footer — navigation and socials
+
+Notes
+
+No backend. Purely static.
+Form buttons (Request an Invite, Join the Waitlist) are currently UI-only — no form logic wired up yet.
