@@ -2,18 +2,18 @@ import heroImage from './assets/download (2).jpg';
 
 const Home = () => {
   return (
-    <div className="flex flex-col lg:flex-row pt-24 xl:pt-32 pb-10">
+    <div className="flex flex-col lg:flex-row pt-24 xl:pt-32 pb-10 lg:pb-16">
 
       {/* ── LEFT: text content ── */}
       <div className="flex-1 flex flex-col justify-center pt-6  px-6 sm:px-10 lg:px-16 ">
         <h3 className="font-inter font-semibold text-xs text-[rgb(11,41,95)] tracking-wide">
           EXECUTION INTELLIGENCE ORGANIZATION
         </h3>
-        <h1 className="font-display font-bold text-4xl md:text-5xl xl:text-6xl pt-5 text-[rgb(11,41,95)] leading-tight ">
+        <h1 className="font-display font-bold text-4xl md:text-5xl  pt-4 text-[rgb(11,41,95)] leading-tight ">
           Execution fails more than strategy. We study
           <span className="font-display italic"> why.</span>
         </h1>
-        <p className="font-inter pt-5 text-sm md:text-base text-[rgb(11,41,95)] max-w-[520px]">
+        <p className="font-inter pt-2 text-sm md:text-base text-[rgb(11,41,95)] max-w-[520px]">
           ThePMForge brings together experienced project and program operators in curated roundtables to uncover real execution breakdowns and turn them into structured, practical systems for better delivery.
         </p>
         <div className="flex flex-row gap-4 pt-10 items-center flex-wrap">
@@ -27,7 +27,7 @@ const Home = () => {
       </div>
 
       {/* ── RIGHT: image panel ── */}
-      <div className="w-[95%] lg:w-[50%] h-[500px] mx-auto my-auto px-8 pt-10 lg:pt-0">
+      <div className="w-[95%] lg:w-[50%] h-[400px] mx-auto my-auto px-8 pt-10 lg:pt-0">
         <div className="w-full h-full rounded-xl overflow-hidden">
           <img
             src={heroImage}
